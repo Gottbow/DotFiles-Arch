@@ -41,6 +41,12 @@ case "$1" in
 					-o window.dimensions.lines=14 \
 					   window.dimensions.columns=90 \
 					-e ranger;;
+					
+   --htop)
+    alacritty --class FloaTerm,Alacritty \
+					-o window.dimensions.lines=48 \
+					   window.dimensions.columns=90 \
+					-e htop;;
 
   --nvim)
     alacritty -e nvim;;
