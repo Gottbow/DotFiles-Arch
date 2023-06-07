@@ -8,8 +8,8 @@
 # Set bspwm configuration for Karla
 set_bspwm_config() {
 		bspc config border_width 3
-		bspc config top_padding 48
-		bspc config bottom_padding 2
+		bspc config top_padding 2
+		bspc config bottom_padding 48
 		bspc config normal_border_color "#21222c"
 		bspc config active_border_color "#353c52"
 		bspc config focused_border_color "#353c52"
