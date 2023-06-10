@@ -132,4 +132,4 @@ alias ll='lsd -la --group-directories-first'
 #  ├─┤│ │ │ │ │  └─┐ │ ├─┤├┬┘ │ 
 #  ┴ ┴└─┘ ┴ └─┘  └─┘ ┴ ┴ ┴┴└─ ┴ 
 neofetch
-pokemon-colorscripts -r
+pokemon-colorscripts -r --no-title
