@@ -100,6 +100,7 @@ _EOF_
 launch_bars() {
 		eww -c ${rice_dir}/widgets daemon &
 		polybar -q cristina-bar -c ${rice_dir}/config.ini &
+		polybar -q cristina-bar2 -c ${rice_dir}/config.ini &
 }
 
 
