@@ -32,11 +32,12 @@ ctrl + super + alt + {p,r,q,l,k}
 	{systemctl poweroff, systemctl reboot,bspc quit,physlock -d,xkill}
 
 # Apps
-shift + alt + {b,g,n,p,r,t,w,m,v,k}
+shift + alt + {b,g,n,p,h,r,t,w,m,v,k}
 	{firefox, \
 	 geany, \
 	 thunar, \
 	 pavucontrol, \
+	 OpenApps --htop, \
 	 OpenApps --ranger, \
 	 telegram-desktop, \
 	 whatsapp-nativefier --disable-gpu, \
